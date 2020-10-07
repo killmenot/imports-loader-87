@@ -1,0 +1,16 @@
+{
+  "restartable": "rs",
+  "ignore": [
+    ".git",
+    "node_modules"
+  ],
+  "verbose": true,
+  "watch": [
+    "app.js",
+    "server.js"
+  ],
+  "ext": "js,json",
+  "env": {
+    "PORT": "8080"
+  }
+}
